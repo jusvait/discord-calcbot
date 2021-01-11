@@ -1,0 +1,22 @@
+{
+  "name": "discord-calcbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jusvait/discord-calcbot.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jusvait/discord-calcbot/issues"
+  },
+  "homepage": "https://github.com/jusvait/discord-calcbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "wolfram-alpha-api": "https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz"
+  }
+}
