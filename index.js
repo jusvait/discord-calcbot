@@ -18,7 +18,7 @@ client.on('message', msg => {
         const question = msg.content.substring(5);
 
         waApi.getShort(question).then((response) => {
-            msg.channel.send(`${client.user.tag}` + " " + response);
+            msg.channel.send(response);
         }).catch((error) => {
             console.log(error);
             msg.channel.send("I couldn't understand that");
